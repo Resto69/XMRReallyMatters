@@ -1,0 +1,25 @@
+{
+  "name": "xmrmatters",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "migrate": "node src/db/migrate.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.0.0",
+    "@fastify/jwt": "^7.2.4",
+    "@fastify/postgres": "^5.0.0",
+    "@fastify/swagger": "^8.0.0",
+    "argon2": "^0.30.0",
+    "dotenv": "^16.0.0",
+    "fastify": "^4.0.0",
+    "fastify-plugin": "^4.5.1",
+    "pg": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
